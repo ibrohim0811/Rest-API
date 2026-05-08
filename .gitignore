@@ -1,5 +1,36 @@
-/venv/
-/venv
-venv
-.db
+# === Python & Virtual Environments ===
+venv/
+.venv/
+env/
+bin/
+include/
+lib/
+share/
+pyvenv.cfg
+*.pyc
+__pycache__/
+
+# === Databases ===
+*.sqlite3
+*.db
+*.db-journal
+
+# === Django Specific ===
+local_settings.py
+.env
 db.sqlite3
+# Agar media fayllar bo'lsa (rasmlar yuklansa)
+media/
+staticfiles/
+
+# === IDE & Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# === Logs & Debugging ===
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
